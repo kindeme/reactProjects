@@ -6,6 +6,7 @@ const Review = () => {
   const [index, setIndex] = useState(0);
   const { name, job, image, text } = people[index];
 
+  // chech number for the  reviews
   const checkNumber = (number) => {
     if (number > people.length - 1) {
       return 0;
